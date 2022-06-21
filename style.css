@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+h3{
+    color: white;
+    background-color: transparent;
+    font-size: 1.1em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    margin-left: 8px;
+
+}
+
+p{
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+header{
+
+}
+.encabezado{
+    display: flex;
+
+    width:100% ;
+    height: 45vh;
+    background-image: linear-gradient(rgba(2,2,2,0.3), rgba(2,2,2,0.3)), url(fotos/tocando3.jpeg) ;
+    background-size:cover ;
+    background-position: center;
+    justify-content: center;
+    border: 3px solid black;
+
+}
+
+
+.barra{
+    display: flex;
+    flex-direction:row ;
+    width: 100%;
+    height: 30px;
+    border: 3px solid black;
+    justify-content: center;
+    background-color: transparent;
+}
+
+@media(min-width:720px){
+    .barra{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    a{
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+    h3{
+        font-size: 1.3em;
+    }
+}
+
+.subt{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+main p{
+    margin: 5px;
+}
+
+@media(min-width:720px){
+    .histo1{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        flex-direction: row-reverse;
+    }
+
+    .histo{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+
+
+
+    .p{
+        width: 70%;
+    }
+    .img{
+        width: 30%;
+    }
+
+   
+
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border: 3px solid black;
+}
